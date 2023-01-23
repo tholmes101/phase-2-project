@@ -12,7 +12,7 @@ function TeamCard({ team, onDeleteTeam, onUpdateTeam }) {
   }
 
   function handleDeleteClick() {
-    fetch(`http://localhost:3000/teams/${id}`, {
+    fetch(`https://nba-teams-server.onrender.com/teams/${id}`, {
       method: "DELETE",
     });
 
@@ -21,7 +21,7 @@ function TeamCard({ team, onDeleteTeam, onUpdateTeam }) {
 
   function handleRankFormSubmit(e) {
     e.preventDefault();
-    fetch(`http://localhost:3000/teams/${id}`, {
+    fetch(`https://nba-teams-server.onrender.com/teams/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
