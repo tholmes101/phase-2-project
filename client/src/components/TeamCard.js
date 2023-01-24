@@ -36,7 +36,7 @@ function TeamCard({ team, onDeleteTeam, onUpdateTeam }) {
 
   return (
     <Card>
-      <Image src={image} alt={name} />
+      <Image src={image} alt={name}/>
       <Card.Content>
       <Card.Header>{name}</Card.Header>
       <Card.Description>
