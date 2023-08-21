@@ -36,7 +36,7 @@ function NewTeamForm({ onAddTeam }) {
         <input
           type="text"
           name="image"
-          placeholder="Image URL"
+          placeholder="Image URL - ./images/ChicagoBulls.jpg"
           value={image}
           onChange={(e) => setImage(e.target.value)}
         />
