@@ -23,6 +23,12 @@
       "image": "./images/BrooklynNets.jpg",
       "rank": 16,
       "id": 4
+    },
+    {
+      "name": "Detroit Pistons",
+      "image": "./images/DetroitPistons.jpg",
+      "rank": 18,
+      "id": 5
     }
   ]
 }
