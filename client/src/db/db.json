@@ -29,12 +29,6 @@
       "image": "./images/DetroitPistons.jpg",
       "rank": 18,
       "id": 5
-    },
-    {
-      "name": "Memphis Grizzlies",
-      "image": "./images/MemphisGrizzlies.jpg",
-      "rank": 5,
-      "id": 6
     }
   ]
 }
