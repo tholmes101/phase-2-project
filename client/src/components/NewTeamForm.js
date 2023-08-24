@@ -7,7 +7,7 @@ function NewTeamForm({ onAddTeam }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/teams", {
+    fetch("https://nba-teams-server.onrender.com/teams", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
